@@ -1,0 +1,335 @@
+/* https://www.w3schools.com/colors/colors_shades.asp */
+
+body, div.tab {
+	background-color: #ceebe8;
+	color: #043542;
+}
+
+p, h1, h2, h3, h4, h5, .bookreviews li, #bookreviews p.bookreviewsubheading,
+#blogs #blogsPageHeading, #farming #farmingPageHeading {
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+.intro, .summary, .motivation, .employments,
+.qualifications, .bookreviews, .imagecontainer,
+.blogs, .blogList, .homePage div, .tradewayLink,
+.mainHeading, .tablecontainer {
+	margin: 2em auto;
+	width: 100%;
+}
+
+.homePage .tradewayLink {
+	width: 40%;
+}
+
+.blogs .blogList {
+	width: 70%;
+}
+
+#familyTragedy img {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#halifaxPlaneContainer img, .homePage img {
+	width: 50%;
+}
+
+#bookreviews img, #seniorDeveloper img, #juniorDeveloper img, #codeReviews img,
+#problemSolver img, #farming img, #familyTragedy #auntyKathAndUncleHarry {
+	width: 100%;
+}
+
+#motivation img, #qualifications img {
+	width: 80%;
+}
+
+#blogs li, .blogs li {
+	margin-top: 1em;
+}
+
+.blogsHome #blogs, #bookreviews {
+	display: block;
+}
+
+.collapsible {
+	margin: 2em auto;
+	display: grid;
+	width: 65%;
+}
+
+ul.bookreviews {
+    text-align: center;
+    list-style-position: inside;
+}
+
+span.code {
+	font-family: Arial;
+	margin-top: 0.3em;
+	text-align: center;
+	display: inline-block;
+	background-color: #fff4f9;
+}
+
+#blogs p.bookreviewsubheading, .homePage div {
+	text-align: center;
+}
+
+.intro, .mainHeading {
+	background-color: #d0f0f6;
+	padding: 2em;
+	border-style: ridge;
+	text-align: justify;
+	text-justify: inter-word;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+#blogs button {
+	text-decoration: underline;
+}
+
+#blogs p, .blogs p, .blogsHome p, #bookreviews p, #farming p {
+	text-align: justify;
+}
+
+.blogs p {
+	width: 75%;
+}
+
+@media (max-width: 480px) {
+	.blogs p {
+		width: 100%;
+	}
+}
+
+#blogs p.authoredBy, .blogs p.authoredBy, .blogsHome p.authoredBy,
+#blogs p.photoAcknowledgements, .blogs p.photoAcknowledgements,
+#bookreviews p.photoAcknowledgements, #farming p.authoredBy {
+	text-align: center;
+	margin: auto;
+}
+
+#blogs p.photoAcknowledgements, .blogs p.photoAcknowledgements {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin-bottom: 2em;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: #d0f0f6;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #c6f3f5;
+}
+
+/* Create an active/current tablink class */
+.tab button.active, .collapsible:hover, .tradewayLink:hover {
+  background-color: #76acad;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible, .tradewayLink {
+  background-color: #cff;
+  color: #444;
+  cursor: pointer;
+  padding: 1em;
+  border: ridge;
+  border-radius: 20em;
+  outline: none;
+  font-size: 1.2em;
+  margin-top: 1.5em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f9f9;
+}
+
+.homePage div {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.mainHeading {
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	text-align: center;
+	width: 80%;
+	height: 6em;
+	font-size: 3em;
+	font-weight: bold;
+	display: block;
+}
+
+.homePage .mainHeading {
+	background: url("/images/pexels-pixabay-158827.jpg") no-repeat center bottom/cover;
+}
+
+#summary .mainHeading {
+	background: url("/images/pexels-anton-atanasov-221016.jpg") no-repeat center;
+	width: 83%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#qualifications .mainHeading {
+	background: url("/images/pexels-pixabay-51947.jpg") no-repeat center 30%;
+}
+
+#motivation .mainHeading {
+	background: url("/images/pexels-matthias-groeneveld-2695394.jpg") no-repeat;
+	background-size: 180%;
+	background-position-x: 100%;
+	background-position-y: 50%;
+}
+
+#employments .mainHeading {
+	background: url("/images/pexels-despierres-cecile-299113.jpg") no-repeat;
+	background-size: 170%;
+}
+
+#blogs .mainHeading {
+	background: url("/images/pexels-k-zoltan-544554.jpg") no-repeat bottom;
+	background-size: 170%;
+}
+
+#bookreviews .mainHeading {
+	background: url("/images/pexels-pixabay-461284.jpg") no-repeat;
+	background-size: cover;
+	background-position-y: 35%;
+	text-align: center;
+}
+
+#farming .mainHeading {
+	background: url("/images/potato_picking_in_the_eighties.jpg") no-repeat bottom;
+	background-size: cover;
+	background-position-y: 35%;
+}
+
+
+.tradewayLink {
+	display: block;
+	text-align: center;
+}
+
+#summary li, #motivation li, #qualifications li , #employments li{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.backToHomePageLink {
+	width: 60%;
+	margin-bottom: 0.5em;
+}
+
+#cv .backToHomePageLink {
+	margin-bottom: 1.5em;
+}
+
+tr:nth-child(even) {
+  background-color: #76acad;
+}
+
+tr:nth-child(odd) {
+  background-color: #cff;
+}
+
+table, th, td {
+  border: 1px solid #043542;
+  border-collapse: collapse;
+}
+
+th, td {
+	padding: 0.5em;
+}
+
+table {
+	min-width: 100%;
+	text-align: left;
+}
+
+caption {
+	margin: 1em auto;
+	font-size: 2.5em;
+}
+
+#bookreviews .summary {
+	margin-bottom: 1em;
+}
+
+.tablecontainer {
+	margin-top: 0em;
+	margin-bottom: 3em;
+}
+
+.headingContainer h1, .headingContainer h2 {
+	font-size: 50%;
+}
+
+.blogsHome .headingContainer h1, .blogsHome .headingContainer h2 {
+	font-size: 200%;
+}
+
+.backToHomePageLink {
+	width: 35%;
+	margin: auto;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+#bookreviews, #summary, #motivation, #employments, #qualifications, #blogs {
+	clear: left;
+}
+
+#bookReviewList p.summary {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#bookReviewList h4 {
+	margin-top: 2em;
+	margin-bottom: -0.1em;
+}
+
+.blogsHome .headingContainer h2.email {
+	font-size: 200%;
+}
+
+p.isDisplayForMediumScreensAndLarger {
+	display: none;
+}
